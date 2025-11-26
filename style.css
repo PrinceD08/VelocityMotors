@@ -1,0 +1,180 @@
+body{
+    background-color: rgb(211, 208, 208);
+}
+header{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: rgb(211, 208, 208);
+}
+#heading{
+    font-size: 150%;
+}
+#mainborder{
+    background-image: url("download\ \(4\).jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    padding: 10% 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+span{
+    color: blue;
+}
+h1{
+    font-size: 500%;
+}
+#explore-vehicles{
+    background-color: rgb(30, 30, 248);
+    color: white;
+    padding: 0% 5%;
+    margin-top: 3%;
+    border-radius: 1em;    
+}
+#watch-video{
+    background-color: rgba(255, 255, 255, 0.651);
+    color: white;
+    padding: 0% 7%;
+    margin-top: 2%;
+    border-radius: 1em;
+}
+#animation{
+    font-size: 200%;
+    margin-top: 5%;
+    animation: move 3s ease-in-out infinite alternate;
+}
+@keyframes move {
+    0%{transform: translateY(0%);}
+    100%{transform: translateY(100%);}
+}
+#mainborder2, #mainborder3, #mainborder4, #mainborder6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.border{
+    box-shadow: 0 0 20px black;
+    background-color:  rgba(255, 255, 255, 0.651);
+    width: 50%;
+    margin-top: 5%;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h2, h3{
+    font-size: 200%;
+}
+.border2{
+    width: 50%;
+    box-shadow: 0 0 20px black;
+    margin-top: 5%;
+    border-radius:1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    border-radius: 1em;
+    width: 100%;
+}
+.price{
+    font-size: 150%;
+    color: blue;
+}
+#view-all-vehicles{
+    background-color: blue;
+    color: white;
+    padding:0% 5%;
+    margin-top: 3%;
+    border-radius: 1em;
+}
+#view-all-vehicles:hover{
+    box-shadow: 0 0 20px blue;
+}
+h4{
+    font-size: 250%;
+}
+#mainborder5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#showcase{
+    width: 60%;
+    margin-top: 3%;
+}
+h6, #get-in-touch, h5{
+    font-size: 200%;
+}
+#testimonials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    box-shadow: 0 0 20px black;
+    padding: 3%;
+    border-radius: 1em;
+}
+#change{
+    background-color: blue;
+    color: white;
+    font-size: 101%;
+    padding: 1% 5%;
+    border-radius: 1em;
+}
+#change:hover{
+    box-shadow: 0 0 20px blue;
+}
+#mainborder7{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 20px black;
+    padding: 10% 0%;
+    width: 60%;
+    border-radius: 1em;
+}
+input{
+    margin-top: 5%;
+    border-radius: 1em;
+    padding-left: 5%;
+    font-size: 102%;
+}
+textarea{
+    margin-top: 5%;
+    width: 50%;
+    padding: 5% 0%;
+}
+#submit{
+    background-color: blue;
+    padding: 1% 5%;
+    color: white;
+    margin-top: 5%;
+    font-size: 105%;
+    border-radius: 1em;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding-left: 20%;
+}
