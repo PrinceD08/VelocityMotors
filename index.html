@@ -58,8 +58,11 @@
     </div>
     </section>
     <section id="mainborder3">
+        <div id="topcontainer">
         <h3>Featured <span>Vehicles</span></h3>
         <p>Handpicked selection of our finest vehicles</p>
+    </div>
+        <div id="maincontainer">
         <div class="border2">
             <img src="photo-1560958089-b8a1929cea89.jpeg" alt="Image">
             <p>Electric Sedan</p>
@@ -95,48 +98,50 @@
                 <p>155mph Gasoline 🧑‍🤝‍🧑7</p>
                 <p class="price">$105,300</p>
             </div>
-            <div class="border2">
-                <img src="photo-1614200187524-dc4b892acf16.jpeg" alt="Image">
-                <p>Supercar</p>
-                <p><b>Audi R8 V10</b></p>
-                <p>205mph Gasoline 🧑‍🤝‍🧑2</p>
-                <p class="price">$158,600</p>
-            </div>
-            <div id="view-all-vehicles">
-                <p>View All Vehicles</p>
-            </div>
+        </div>
+                <p id="view-all-vehicles">View All Vehicles</p>
             <!--Contains the link to view all  vehicles-->
     </section>
     <section id="mainborder4">
         <h4>Why Choose <span>Velocity Motors</span></h4>
         <p>Trust, quality, and excellence in every interaction</p>
-        <div>
+        <div id="contain">
+            <div class="roww">
+            <p>🛡</p>
             <p><b>100%</b></p>
             <p><b>Certified Vehicles</b></p>
             <p>Every vehicle inspected</p><br>
+            </div>
+            <div class="roww">
+            <p>🎖</p>
             <p><b>25+</b></p>
             <p><b>Years Experience</b></p>
             <p>Industry expertise</p><br>
+            </div>
+            <div class="roww">
+            <p>🫂</p>
             <p><b>15000+</b></p>
             <p><b>Happy Customers</b></p>
             <p>Satisfied clients</p><br>
+            </div>
+            <div class="roww">
+            <p>🗠</p>
             <p><b>98%</b></p>
             <p><b>Satisfaction Rate</b></p>
             <p>Customer approval</p><br>
-        </div>
+            </div>
+            </div>
     </section>
     <section id="mainborder5">
         <h5>Our <span>Gallery</span></h5>
         <p>A glimpse into our world of premium automobiles</p>
         <div id="showcase">
-        <img src="download (1).jpeg" alt="">
-        <img src="download (2).jpeg" alt="">
-        <img src="download (3).jpeg" alt="">
-        <img src="download (4).jpeg" alt="">
-        <img src="download (5).jpeg" alt="">
-        <img src="download (6).jpeg" alt="">
-        <img src="download (7).jpeg" alt="">
-        <img src="download (8).jpeg" alt="">
+            <div onmouseover="displayoutput1()" class="imagecontainer"><img src="download (1).jpeg" alt=""><p id="output1"></p></div>
+            <div onmouseover="displayoutput2()" class="imagecontainer"><img src="download (2).jpeg" alt=""><p id="output2"></p></div>
+            <div onmouseover="displayoutput3()" class="imagecontainer"><img src="download (3).jpeg" alt=""><p id="output3"></p></div>
+            <div onmouseover="displayoutput4()" class="imagecontainer"><img src="download (5).jpeg" alt=""><p id="output4"></p></div>
+            <div onmouseover="displayoutput5()" class="imagecontainer"><img src="download (6).jpeg" alt=""><p id="output5"></p></div>
+            <div onmouseover="displayoutput6()" class="imagecontainer"><img src="download (7).jpeg" alt=""><p id="output6"></p></div>
     </div>
     </section>
     <section id="mainborder6">
@@ -156,6 +161,8 @@
     <section id="mainborder7">
         <p id="get-in-touch">Get In <span>Touch</span></p>
         <p>Ready to find your perfect vehicle ? Contact Us today</p>
+        <div id="mainsubborder">
+        <div id="subborder1">
         <p><b>Contact Information</b></p>
         <p>Visit our showroom or reach out to our team. We're here to help you find your dream vehicle.</p>
         <p><b>Call Us</b></p>
@@ -163,6 +170,7 @@
         <br>
         <p><b>Email Us</b></p>
         <p>princedavid2001101gmail.com</p>
+        </div>
             <form>
             <input type="text" placeholder="Your Name" required>
             <input type="email" placeholder="Email Address" required>
@@ -170,25 +178,36 @@
             <textarea placeholder="Tell us about your dream vehicle...." required></textarea>
             <button id="submit" onclick="messagesent()" type="submit">Send Message</button>
             </form>
+        </div>
     </section>
 </main>
     <footer>
-        <p>Velocity <span>Motors</span></p>
+        <div id="lastpartcontainer">
+        <div class="lastpart">
+        <p id="ending">Velocity <span>Motors</span></p>
         <p>Your trusted destination for premium vehicles and exceptional service.</p>
+        </div>
+        <div class="lastpart">
         <p><b>Quick Links</b></p>
         <ul>
-            <li><a href="#mainborder3">Browse Vehicles</a></li>
-            <li><a href="#mainborder2">Categories</a></li>
-            <li><a href="#mainborder5">Gallery</a></li>
-            <li><a href="#mainborder7">Contact Us</a></li>
+            <p>Browse Vehicles</p>
+            <p>Categories</p>
+            <p>Gallery</p>
+            <p>Contact Us</p>
         </ul>
+        </div>
+        <div class="lastpart">
         <p><b>Services</b></p>
         <ul>
-            <li>Vehicle Sales</li>
-            <li>Test Drives</li>
-            <li>Financing</li>
-            <li>Trade-Ins</li>
+            <p>Vehicle Sales</p>
+            <p>Test Drives</p>
+            <p>Financing</p>
+            <p>Trade-Ins</p>
         </ul>
+        </div>
+        </div>
+        <div id="all-rights-reserved">
         &copy;2025 Velocity Motors. All rights reserved.
+        </div>
     </footer>
 </html>
