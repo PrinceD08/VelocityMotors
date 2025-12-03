@@ -163,6 +163,13 @@ img:hover{
 h4{
     font-size: 250%;
 }
+#mainborder4header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5%;
+}
 #contain{
     display: flex;
     flex-direction: row;
@@ -181,75 +188,90 @@ h4{
     overflow: hidden;
     margin: 0 1%;
 }
+#mainborder5header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5%;
+}
 #showcase{
     margin-top: 3%;
     text-align: center;
 }
-h6, h5{
+h5{
     font-size: 200%;
 }
 #get-in-touch{
     font-size: 300%;
     font-weight: 1000;
 }
-#subborder1{
-    width: 40%;
-    display: inline;
+h6{
+    font-size: 300%;
+}
+#image{
+    width: 10%;
+    border-radius: 100%;
 }
 #testimonials{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 50%;
-    box-shadow: 0 0 20px black;
+    box-shadow: 0 0 3px rgb(134, 134, 134);
     padding: 3%;
     border-radius: 1em;
 }
-#change{
-    background-color: blue;
-    color: white;
-    font-size: 101%;
-    padding: 1% 5%;
-    border-radius: 1em;
+#mainborder7{
+    margin-bottom: 10%;
 }
-#change:hover{
-    box-shadow: 0 0 20px blue;
+#getintouchheader{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 4%;
 }
 #mainsubborder{
     display: flex;
     flex-direction: row;
 }
-form{
-    box-shadow: 0 0 20px black;
-    padding: 10% 0%;
-    width: 40%;
-    border-radius: 1em;
-    display: inline;
+#subborder1{
+    width: 50%;
+    margin: 0% 3%;
+    font-weight: 200;
 }
-input{
-    margin-top: 5%;
+form{
+    box-shadow: 0 0 3px #868686;
+    padding: 3% 0%;
+    width: 50%;
     border-radius: 1em;
-    padding-left: 5%;
-    font-size: 102%;
+    display: flex;
+    flex-direction: column;
+    margin: 0% 3%;
+}
+input, textarea{
+    margin: 1% 6%;
+    padding: 2% 2%;
+    border-radius: 1em;
+    border: solid 1px rgb(134, 134, 134);
 }
 textarea{
     margin-top: 5%;
-    width: 50%;
-    padding: 5% 0%;
+    padding: 5% 2%;
 }
-#submit{
-    background-color: blue;
-    padding: 1% 5%;
+#submit, #change{
+    background-color: rgb(33, 131, 223);
+    padding: 2% 5%;
     color: white;
-    margin-top: 5%;
+    margin: 5%;
     font-size: 105%;
     border-radius: 1em;
+    border: solid 1px rgb(134, 134, 134);
+}
+#submit:hover, #change:hover{
+    transform: scale(1.05);
+    transition: 2s;
 }
 #lastpartcontainer{
     display: flex;
     flex-direction: row;
-    text-align: center;
 }
 .lastpart{
     width: 30%;
