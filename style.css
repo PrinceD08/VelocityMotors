@@ -292,3 +292,60 @@ footer{
     justify-content: center;
     margin-top: 5%;
 }
+@media (max-width: 940px) and (orientation: portrait){
+    h1{
+        font-size: 300%;
+        text-align: left;
+    }
+    #mainborder{
+        font-size: 80%;
+        text-align: center;
+        width: 100%;
+        margin-top: 10%;
+    }
+    #explore-vehicles, #watch-video{
+        display: block;
+        width: 50%;
+        text-align: center;
+        padding: 2% 0;
+    }
+    h2{
+        text-align: center;
+    }
+    #container{
+        display: flex;
+        flex-direction: column;
+    }
+    .border{
+        width: 90%;
+        box-shadow: 0 0 7px black;
+        margin-top: 6%;
+    }
+    .border2{
+        width: 90%;
+    }
+    h4{
+        text-align: center;
+    }
+    #contain{
+        display: flex;
+        flex-direction: column;
+    }
+    .imagecontainer{
+        width: 90%;
+    }
+    #mainsubborder{
+        display: flex;
+        flex-direction: column;
+    }
+    form{
+        width: 90%;
+    }
+    #lastpartcontainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .lastpart{
+        width: 90%;
+    }
+}
